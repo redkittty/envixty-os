@@ -1,0 +1,44 @@
+#+TITLE: envixty-os
+#+AUTHOR: Envixty (redkittty on GitHub)
+
+* Table of Contents :toc:
+- [[#what-is-envixty-os][What is envixty-os?]]
+- [[#software-in-my-config][Software in my Config]]
+  - [[#awesomewm][AwesomeWM]]
+  - [[#doom-emacs][Doom Emacs]]
+  - [[#st][ST]]
+
+* What is envixty-os?
+Envixty-OS is a compilation of scripts to automate setting up my computer environment,
+
+This is the ultimate system for the hackerman
+
+[[~/Documents/Code/envixty-os/screenshots/hacker.png]]
+
+* Software in my Config
+Here are some screenshots of this
+
+** AwesomeWM
+This is AwesomeWM, AwesomeWM is a dynamic, tiling, Window Manager configured entirely in Lua
+
+[[~/Documents/Code/envixty-os/screenshots/desktop.png]]
+
+** Doom Emacs
+Doom Emacs is a distribution of Emacs designed for VIM users with Evil Mode,
+
+[[~/Documents/Code/envixty-os/screenshots/emacs-conf.png]]
+
+** ST
+ST (Suckless's Simple Terminal) Is a terminal emulator made to be minimalist by default, the way you configure it is by patching the software,
+
+Here are the patches I made so far:
+
+|-----------------------------------------------------------------------------|
+| Patches                                                                     |
+|-----------------------------------------------------------------------------|
+| desktopentry (Adds a desktop entry)                                         |
+| scrollback (Allows you to scroll back)                                      |
+| xresources (Allows you to use your .Xresources file for configuring colors) |
+|-----------------------------------------------------------------------------|
+
+[[~/Documents/Code/envixty-os/screenshots/st.png]]

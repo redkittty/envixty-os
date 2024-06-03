@@ -21,7 +21,7 @@ Here are some screenshots of this
 ** AwesomeWM
 This is AwesomeWM, AwesomeWM is a dynamic, tiling, Window Manager configured entirely in Lua
 
-[[https://github.com/redkittty/envixty-os/blob/main/envixty-os/screenshots/desktop.png]]
+[[https://github.com/redkittty/envixty-os/blob/main/screenshots/desktop.png]]
 
 ** Doom Emacs
 Doom Emacs is a distribution of Emacs designed for VIM users with Evil Mode,

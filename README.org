@@ -13,7 +13,7 @@ Envixty-OS is a compilation of scripts to automate setting up my computer enviro
 
 This is the ultimate system for the hackerman
 
-[[~/Documents/Code/envixty-os/screenshots/hacker.png]]
+[[https://github.com/redkittty/envixty-os/blob/main/screenshots/hacker.png]]
 
 * Software in my Config
 Here are some screenshots of this
@@ -21,12 +21,12 @@ Here are some screenshots of this
 ** AwesomeWM
 This is AwesomeWM, AwesomeWM is a dynamic, tiling, Window Manager configured entirely in Lua
 
-[[~/Documents/Code/envixty-os/screenshots/desktop.png]]
+[[https://github.com/redkittty/blob/main/envixty-os/screenshots/desktop.png]]
 
 ** Doom Emacs
 Doom Emacs is a distribution of Emacs designed for VIM users with Evil Mode,
 
-[[~/Documents/Code/envixty-os/screenshots/emacs-conf.png]]
+[[https://github.com/redkittty/envixty-os/blob/main/screenshots/emacs-conf.png]]
 
 ** ST
 ST (Suckless's Simple Terminal) Is a terminal emulator made to be minimalist by default, the way you configure it is by patching the software,
@@ -41,4 +41,4 @@ Here are the patches I made so far:
 | xresources (Allows you to use your .Xresources file for configuring colors) |
 |-----------------------------------------------------------------------------|
 
-[[~/Documents/Code/envixty-os/screenshots/st.png]]
+[[https://github.com/redkittty/envixty-os/blob/main/screenshots/st.png]]

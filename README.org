@@ -6,7 +6,7 @@
 - [[#software-in-my-config][Software in my Config]]
   - [[#awesomewm][AwesomeWM]]
   - [[#doom-emacs][Doom Emacs]]
-  - [[#st][ST]]
+  - [[#kitty][Kitty]]
 
 * What is envixty-os?
 Envixty-OS is a compilation of scripts to automate setting up my computer environment,
@@ -28,17 +28,11 @@ Doom Emacs is a distribution of Emacs designed for VIM users with Evil Mode,
 
 [[https://github.com/redkittty/envixty-os/blob/main/screenshots/emacs-conf.png]]
 
-** ST
-ST (Suckless's Simple Terminal) Is a terminal emulator made to be minimalist by default, the way you configure it is by patching the software,
+** Kitty
+Kitty is an Extensible, GPU-Powered Terminal for the Modern Age
 
-Here are the patches I made so far:
+Kitty has things like kittens which are python scripts for doing things in kitty
 
-|-----------------------------------------------------------------------------|
-| Patches                                                                     |
-|-----------------------------------------------------------------------------|
-| desktopentry (Adds a desktop entry)                                         |
-| scrollback (Allows you to scroll back)                                      |
-| xresources (Allows you to use your .Xresources file for configuring colors) |
-|-----------------------------------------------------------------------------|
+Example (icat kitten):
 
-[[https://github.com/redkittty/envixty-os/blob/main/screenshots/st.png]]
+[[https;//github.com/redkittty/envixty-oss/blob/main/screenshots/icat.png]]

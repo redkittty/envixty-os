@@ -35,4 +35,4 @@ Kitty has things like kittens which are python scripts for doing things in kitty
 
 Example (icat kitten):
 
-[[https;//github.com/redkittty/envixty-os/blob/main/screenshots/icat.png]]
+[[https://github.com/redkittty/envixty-os/blob/main/screenshots/icat.png]]

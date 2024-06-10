@@ -16,11 +16,13 @@ function main_menu() {
   echo ""
   echo "2) Hyprland"
   echo ""
+  echo "3) Qtile"
+  echo ""
   echo "---------------"
   echo -e "${yellow}Or another option ${reset}"
   echo "---------------"
   echo ""
-  echo "3) Exit"
+  echo "4) Exit"
   echo ""
   echo "---------------"
   echo ""
@@ -29,7 +31,8 @@ function main_menu() {
   case $choice in
     1) awesomewm ;;
     2) hyprland ;;
-    3) exit 0 ;;
+    3) qtile ;;
+    4) exit 0 ;;
     *) echo -e "${red}Invalid choice!${reset}"; sleep 3.5; main_menu ;;
   esac
 }
@@ -44,10 +47,17 @@ function awesomewm() {
 # Function for Hyprland
 function hyprland() {
     echo -e "${yellow}Installing Hyprland and related software...${reset}"
-    sudo pacman -S hyprland hyprpaper waybar wl-clipboard
+    sudo pacman -S hyprland hyprpaper waybar wl-clipboard wofi
     git clone https://aur.archlinux.org/hyprpicker-git.git && cd hyprpicker-git && makepkg -si && cd ..
     echo -e "${green}Done installing Hyprland!${reset}"; sleep 3.5; chmod +x dotfiles.sh; source dotfiles.sh
 }
+
+# Function For Qtile
+function qtile() {
+    echo -e "${yellow}Installing Qtile and related software...${reset}"
+    sudo pacman -S qtile python-psutil flameshot conky rofi rofi-calc rofi-emoji
+    git clone https://aur.archlinux.org/qtile-extras-git.git && cd qtile-extras-git && makepkg -si && cd ..
+    echo -e "${green}Done installing Qtile!${reset}"; sleep 3.5; chmod +c dotfiles.sh; source dotfiles.sh
 
 # Call the main menu only once
 main_menu

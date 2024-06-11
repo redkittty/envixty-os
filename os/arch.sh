@@ -56,8 +56,14 @@ function install_software() {
   # Dash Setup
   mkdir ~/bin && sudo mv /bin/sh ~/bin/sh.bak && sudo ln -s /usr/bin/dash /bin/sh
 
+  # Pacman Setup
+  # Chaotic AUR
+  pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com && pacman-key --lsign-key 3056513887B78AEB && pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst' && pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+  mkdir ~/etc && sudo mv /etc/pacman.conf ~/etc/pacman.conf.bak && sudo cp dotfiles/root/etc/pacman.conf /etc && cd ..
+
+
   # DOOM EMACS Setup
-  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+  git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs && ~/.config/emacs/bin/doom install
 
   # Fish Setup
   chsh -s /bin/fish

@@ -55,7 +55,7 @@ function hyprland() {
 # Function For Qtile
 function qtile() {
     echo -e "${yellow}Installing Qtile and related software...${reset}"
-    sudo pacman -S qtile python-psutil flameshot conky rofi rofi-calc rofi-emoji
+    sudo pacman -S qtile python-psutil flameshot conky rofi rofi-calc rofi-emoji dunst
     git clone https://aur.archlinux.org/qtile-extras-git.git && cd qtile-extras-git && makepkg -si && cd ..
     echo -e "${green}Done installing Qtile!${reset}"; sleep 3.5; chmod +c dotfiles.sh; source dotfiles.sh
 
